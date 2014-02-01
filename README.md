@@ -19,7 +19,7 @@ Node.js application webhook that parses logentries attack alarms logged by HApro
 
 ####Node.js
 
-Edit node-haflare-webhoook.js and add your personal information.
+Edit **ws-attack-receiver.js** and add your personal information.
 ```javascript
 var cf_tkn  = '< API Token from CloudFlare> ';
 var cf_email= '< mail registered at CloudFlare >' 
@@ -37,7 +37,7 @@ Write down your public IP and Port (default:8080), run your application :-)
 
 ####Logentries.com
 You will need 2 log facilities, one as 'Node.js' type to receive events the application and another one, type 'Plain TCP, UDP', to receive logs from HAProxy;
-- Create a new log for Node.js, follow steps and write down the log token to use it on the node-haflare-webhoook.js;
+- Create a new log for Node.js, follow steps and write down the log token to use it on the **ws-attack-receiver.js**;
 - Create a manual configuration log of type 'Plain TCP, UDP'. As soon as the log is created you will have a few minutes to configure HAProxy to send log events so Logentries.com can lock the port to your application. Write down the port.
 - On the HAproxy log created, set up a new Tag/Alarm with the following options:
 
