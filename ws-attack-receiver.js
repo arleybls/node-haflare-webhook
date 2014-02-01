@@ -1,4 +1,5 @@
-// Author: Arley Barros Leal da Silveira
+// Copyright (c) 2014, Arley Barros Leal da Silveira
+// All rights reserved.
 // 
 // Note: I'm not by any means a pro node.js developer, that was more for prototyping and testing :-)
 //       Feel free to improve on this code.
