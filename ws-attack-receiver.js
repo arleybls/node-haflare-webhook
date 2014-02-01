@@ -122,7 +122,7 @@ getattack = function(request, response) {
   // Log action
   log.crit("Blocking Attacker IP: ",attacker_ip[1]);
   
-  // Post to logentries.
+  // Post to Cloudflare.
   cf_post_msg('block', attacker_ip[1]);
   
   // Increment attack tolerance counter
