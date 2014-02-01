@@ -47,7 +47,7 @@ You will need 2 log facilities, one as 'Node.js' type to receive events the appl
 > - Log to apply: Select the HAproxy Log
 > - Trigger: Once
 > - Report: 100x / Hour
-> - Check Webhook: http://<IP>:<PORT>/attack
+> - Check Webhook: http://YOUR_SERVER_IP:PORT/attack
 
 ####HAproxy
 Point HAproxy to logentries.com facility, use the <port> given when you created the HAproxy log.
