@@ -73,7 +73,7 @@ frontend my-http-in
     # To get the ips-v4 file, crontab -e this job: 
     #      * 0 * * * wget -qO /opt/cloudflare/ips-v4 https://www.cloudflare.com/ips-v4
     
-    # Block all request not coming from cloudflare or Local ISP
+    # Block all request not coming from cloudflare
     http-request deny if !cloudflare_ranges 
     
     # Misbehaving Protection based on CF-Connecting-IP from Cloudflare
