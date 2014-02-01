@@ -1,7 +1,7 @@
 // Copyright (c) 2014, Arley Barros Leal da Silveira
 // All rights reserved.
 // 
-// Note: I'm not by any means a pro node.js developer, this project for prototyping, testing and fun :-)
+// Note: I'm not by any means a pro node.js developer, this project was for prototyping, testing and fun :-)
 //       Feel free to improve on this code.
 
 // Declare necessary environment
